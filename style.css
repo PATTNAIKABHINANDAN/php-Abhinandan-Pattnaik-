@@ -1,0 +1,79 @@
+body{
+    padding:100px;
+    background-color: rgb(195, 247, 247);
+}
+H1{
+    text-align: center;
+    color: blue;
+}
+
+table {
+    border: black;
+    border-style: solid;
+}
+
+th {
+    background-color:blue;
+    border: solid;
+}
+
+td {
+    border-top: inset;
+    background-color: aqua;
+}
+
+input {
+    background-color: aqua;
+    border: none;
+}
+
+input[type="file"] {
+    background-color: aqua;
+    padding-inline-start: 100px;
+}
+
+textarea {
+    border: none;
+    background-color: aqua;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+button#delete {
+    background-color: white;
+}
+
+button#edit {
+    background-color: white;
+}
+
+#edit{
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    margin:5px
+}
+
+#delete {
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    margin:5px
+}
+
+#submit{
+    border-color:blue;
+    border-radius: 20px;
+    margin:50px;
+    height:50px;
+    width:200px;
+    background-color:aqua;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+input#id {
+    width: 80px;
+}
